@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="buttonsInPortfolio" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">225dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FAFAFA</item>
+        <item name="android:background">#ff5252</item>
+<!--
+        <item name="android:typeface">monospace</item>
+-->
+        <item name="android:layout_marginBottom">9dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:onClick">displayToastMessageOnClick</item>
+        <item name="android:radius">6dp</item>
+
+    </style>
+    <style name="buttonsInPortfolio.Capstone" >
+        <item name="android:background">#2196f3</item>
+    </style>
+</resources>
